@@ -265,80 +265,8 @@ def main():
 
 
 
-
-
-
-        # Só sensor
-        # print("Distancia: ", ultrassom.getDistance())
-
-        # Scripts para testes -> Servo PWM com ultrassonico
-        # duty = 2 # 2 a 10 
-        # motor.changeDutyCycle(5)
-        # i=0
-        # angle = 0 # 1 duty equivale a 22.5 graus 
-        # while angle<=100:
-        #     angle+= 5
-        #     i+=1
-        #     # print("Dxistancia: ", ultrassom.getDistance())
-        #     # motor.changeDutyCycle(duty)
-        #     motor.changeAngle(5)
-        #     print("i ", i)
-        #     print("Angle ", angle)
-        #     # duty = duty + 1
-        #     time.sleep(0.2)
-
-        # motor.changeAngle(90)
-        # time.sleep(5)
-        # print("Posicao inicial: ", angle)
-        # motor.changeDutyCycle(2)
-        # time.sleep(3)
-        # print("Posicao final: ", angle)
-        # motor.changeDutyCycle(10)
-        # time.sleep(3)
-        # angle = motor.changeAngle(10)
-        # print("Angle: ", angle)
-        # time.sleep(1)
-
-        # motor.changeAngle(-100)
-
-        # Scripts para testes -> Motor Passo com ultrassonico
-        # motor.giro_frente(False, 10) # Se move 10 passos para frente
-        
-
-
     GPIO.cleanup()                       #Limpamos os pinos GPIO e saimos
 
 
 
 main()
-
-
-
-
-
-
-
-        # Scripts para testes -> Servo PWM  com biblioteca
-        # val = 1
-        # while val > -1:
-        #     # print("Distancia: ", ultrassom.getDistance())
-        #     motor.servo.value = val
-        #     print("Val: ", val)
-        #     val = val - 0.1
-        #     time.sleep(0.5)    
-                    
-        # print("Min")
-        # motor.servo.min()
-        # time.sleep(3)
-        # print("Mid")
-        # motor.servo.mid()
-        # time.sleep(3)
-        # print("Max")
-        # motor.servo.max()
-
-        # motor.changeAngle(-90)
-        # time.sleep(3)
-        # motor.changeAngle(90)
-
-        # print("Pausa 3 seg")
-        # time.sleep(3)
